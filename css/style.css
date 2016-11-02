@@ -1,0 +1,261 @@
+html{
+  background-color: #E9E9E9;
+}
+
+body{
+    background-image: url('images/background.png');
+    background-repeat: repeat-y;
+    background-attachment: fixed;
+    background-position: center; 
+}
+
+#menu {
+    font-size: 18px;
+    font-family: avenir bold, sans-serif;
+    font-weight: bold;
+    text-align: left;
+   	line-height: 100%;
+}
+
+#menu ul {
+    padding: 0px 0px;
+    margin: 0px;
+}
+
+#menu li { 
+display: inline; 
+padding: 0px; 
+}
+
+#menu a{
+    text-decoration: none;
+    color: #EC008B;
+    padding: 0px 14px 0px 0px;
+}
+
+#menu a:hover {
+    color: #736968;
+}
+
+#menu p{
+    font-size: 18px;
+    font-family: 'Fjalla One', sans-serif;
+    color: #7F3B55;
+    font-weight: 800;
+    text-align: right;
+}
+
+
+#menu p a{
+    padding: 0px;
+}
+
+
+#info {
+    font-size: 18px;
+    font-family: 'Fjalla One', sans-serif;
+   	color: #7F3B55;
+    font-weight: bold;
+    text-align: ;
+   	border-radius: 8px;
+}
+
+#info ul {
+    height: auto;
+    padding: 0px 0px;
+    margin: 0px;
+}
+
+#info li { 
+display: inline; 
+padding: 0px;
+
+}
+
+#info a {
+    text-decoration: none;
+    color: #7F3B55;
+    padding: 8px 8px 8px 8px;
+}
+
+hr {
+  border: 0px;
+  width: 903px;
+  border-top: 10px solid #EC008B;
+  border-bottom: 10px solid #EC008B;
+}
+
+.headline {
+	font-family: 'Fjalla One', sans-serif;
+	font-size: 72px;
+	color: #7F3B55;
+	line-height: 60px;
+	text-align: center;
+  letter-spacing: -3px;
+}
+
+.sample {
+	font-family: 'Fjalla One', sans-serif;
+	font-size: 20px;
+	color: #454545;
+	line-height: 30px;
+}
+
+
+
+.content{
+	width:100%;
+	position:relative;
+	text-align:left;
+
+}
+
+.content p {
+  font-family: 'Catamaran', sans-serif;
+  font-weight: 300;
+  font-size: 16px;
+  color: #000000;
+  line-height: 150%;
+  padding-left: 230px;
+  padding-right: 150px;
+  max-width: 900px;
+}
+
+.nav {
+  margin-left: 0px;
+  margin-left:230px;
+}
+
+.nav a{
+  text-decoration: none;
+  text-align:left;
+ 
+
+}
+
+.feature { 
+    background-image: url('images/dreamstime_xxl_49346236.png');
+    background-repeat: no-repeat;
+}
+
+.coffee {
+  vertical-align: top;
+  text-align: left;
+}
+
+.coffee p{
+  font-family: 'Fjalla One', sans-serif;
+  font-size: 16px;
+  color: #7F3B55;
+  line-height: 24px;
+  text-align:top;
+}
+
+
+.coffee h3{
+  font-family: 'Fjalla One', sans-serif;
+  font-size: 16px;
+  color: #7F3B55;
+  line-height: 250%;
+  text-align:top;
+  border-bottom: 2px solid #7F3B55;
+}
+
+.coffee h5{
+  font-family: 'Fjalla One', sans-serif;
+  font-size: 16px;
+  color: #7F3B55;
+  line-height: 250%;
+  text-align:top;
+  /*border-bottom: 2px solid #7F3B55;*/
+}
+
+.coffee h4{
+  font-family: 'Fjalla One', sans-serif;
+  font-size: 20px;
+  color: #7F3B55;
+  line-height: 200%;
+  text-align:right;
+/*  border-bottom: 2px solid #EC008B;*/
+}
+
+#form hr{
+   border: 2px;
+   color: #7F3B55;
+  }
+
+  .bottom{
+    align: top;
+}
+
+#footer {
+    font-size: 16px;
+    font-family: 'Fjalla One', sans-serif;
+    color: #7F3B55;
+    line-height: 48px;
+    font-weight: bold;
+    text-align: ;
+    border-radius: 8px;
+}
+
+#footer ul {
+    height: auto;
+    padding: 0px 0px;
+    margin: 0px;
+}
+
+#footer li { 
+display: inline; 
+padding: 0px;
+
+}
+
+#footer a {
+    text-decoration: none;
+    color: #7F3B55;
+    padding: 8px 8px 8px 8px;
+}
+
+#contact-area {
+  font-family: 'Fjalla One', sans-serif;
+  font-size: 14px;
+  color: #7F3B55;
+  line-height: 250%;
+  text-align:top;
+  border-bottom: 2px solid #7F3B55;
+  border: 0px solid;
+  width: 600px;
+  margin-top: 25px;
+}
+
+#contact-area input, #contact-area textarea {
+  margin-bottom: 5px;
+  padding: 5px;
+  width: 400px;
+  font-family: Helvetica, sans-serif;
+  font-size: 1.4em;
+  margin: 0px 0px 10px 0px;
+  border: 2px solid #F773DA;
+}
+
+#contact-area textarea {
+  height: 20px;
+}
+
+#contact-area textarea:focus, #contact-area input:focus {
+  border: 2px solid #900;
+}
+
+#contact-area input.submit-button {
+  width: 100px;
+  float: right;
+}
+
+label {
+  float: left;
+  text-align: right;
+  margin-right: 15px;
+  width: 100px;
+  padding-top: 5px;
+  font-size: 1.4em;
+}
